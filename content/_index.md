@@ -3,7 +3,7 @@ title: "Home"
 ---
 
 <div class="two-col">
-<div><img src="/images/home-arch.jpg" alt="Washington Square Arch"></div>
+<div><img src="/images/home/arch.jpg" alt="Washington Square Arch"></div>
 <div>
 
 The overarching research mission of the Lu Lab is to **uncover** the simple laws behind the complexity of natural and human-dominated systems, and to **cross-pollinate** these laws across disparate domains for unexpected discoveries.
