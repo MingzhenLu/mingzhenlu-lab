@@ -13,7 +13,7 @@ Drawing from biogeochemistry, theoretical ecology, and complexity science, our w
 
 <div class="two-col">
 <div>
-<img src="/images/research/belowground.jpg" alt="Cross-sections of first-order roots">
+{{< img "/images/research/belowground.jpg" "Cross-sections of first-order roots" >}}
 <p style="font-size:14px;color:#777;margin-top:8px;">Cross-sections of first-order roots. Photo credit: Zeqing Ma</p>
 </div>
 <div>
@@ -32,7 +32,7 @@ Drawing from biogeochemistry, theoretical ecology, and complexity science, our w
 </div>
 
 <div class="two-col">
-<div><img src="/images/research/regime-shifts.jpg" alt="Tibetan plateau fieldwork"></div>
+<div>{{< img "/images/research/regime-shifts.jpg" "Tibetan plateau fieldwork" >}}</div>
 <div>
 
 ### Ecological regime shifts and hidden feedbacks
@@ -47,7 +47,7 @@ Drawing from biogeochemistry, theoretical ecology, and complexity science, our w
 </div>
 
 <div class="two-col">
-<div><img src="/images/research/urban-systems.jpg" alt="Urban systems collage"></div>
+<div>{{< img "/images/research/urban-systems.jpg" "Urban systems collage" >}}</div>
 <div>
 
 ### Urban-system science: an ecosystem perspective

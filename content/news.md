@@ -7,7 +7,7 @@ url: "/news/"
 
 ### 06-17-2025
 
-![Deep roots paper](/images/news/deep-roots.jpg)
+{{< img "/images/news/deep-roots.jpg" "Deep roots paper" >}}
 
 We're excited to share our new paper on plant roots, just published in *Nature Communications*. For a long time, people thought plant roots mostly stayed near the surface and decay exponentially with depth. But by analyzing the NEON dataset which collected data from across North America, we found something different: many systems actually have a second peak of fine roots much deeper underground—often more than a meter down. This "bimodal" root pattern showed up at about 20% of the sites we studied, from Alaska to Puerto Rico.
 
@@ -20,7 +20,7 @@ We also saw that these deep roots often form where there's extra nitrogen in the
 
 ### 12-01-2024
 
-![Landfill carbon paper](/images/news/landfill-paper.jpg)
+{{< img "/images/news/landfill-paper.jpg" "Landfill carbon paper" >}}
 
 Congratulations to [Shijun](https://www.researchgate.net/profile/Ma-Shijun) for this new publication: [Carbon-negative transition by utilizing overlooked carbon in waste landfills](https://the-innovation.org/article/doi/10.59717/j.xinn-geo.2024.100109). In this paper, we explore an often-overlooked aspect of the global carbon cycle: carbon stored in modern city landfills. Landfills contribute to roughly one-tenth of global methane emissions, yet their standing carbon stock remains poorly characterized. In 346 Chinese cities alone, we estimate the landfill standing stock to be 0.5 Gigaton—equivalent to the weight of 50,000 Eiffel Towers or half the weight of all built structures in New York City, and about 1/20 of annual human carbon emissions. Studying different forms of urban waste can open new doors toward carbon neutrality. This research positions waste study as a novel frontier in global biogeochemistry.
 
@@ -34,7 +34,7 @@ Congratulations to [Aiyu](/people/) for her [ESA Bulletin](https://esajournals.o
 
 ### Press · 01-18-2024
 
-![City-Earth-Spiral](/images/news/city-earth-spiral.png)
+{{< img "/images/news/city-earth-spiral.png" "City-Earth-Spiral" >}}
 
 *"City-Earth-Spiral" by [Elisa Heinrich Mora](https://profiles.stanford.edu/elisa-heinrich-mora), with input from Katie Mast, Abha Eli, and Mingzhen Lu. The spirals' inspiration came from the nautilus curve, which closely relates to scaling.*
 
@@ -48,7 +48,7 @@ Our recent [paper](https://www.nature.com/articles/s44284-023-00021-5) on unders
 
 ### 01-01-2024
 
-![Trends in Ecology & Evolution cover](/images/news/tee-cover.jpg)
+{{< img "/images/news/tee-cover.jpg" "Trends in Ecology & Evolution cover" >}}
 
 Congratulations to Yue Zhang for her recent publication appearing on the [cover of *Trends in Ecology & Evolution*](https://www.cell.com/issue/S0169-5347(23)X0002-0#). The paper itself can be found [here](https://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(23)00233-1).
 

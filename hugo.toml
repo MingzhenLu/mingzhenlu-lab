@@ -6,7 +6,7 @@ theme = "lulab"
 [params]
   wordmarkLine1 = "SIMPLE LAWS IN"
   wordmarkLine2 = "COMPLEX SYSTEMS"
-  heroImage = "/images/hero.jpg"
+  heroImage = "images/hero.jpg"
   email = "mingzhen.lu@nyu.edu"
   nyuFaculty = "https://as.nyu.edu/faculty/mingzhen-lu.html"
   nyuDept = "https://as.nyu.edu/departments/environment.html"

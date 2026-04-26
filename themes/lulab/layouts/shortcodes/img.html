@@ -1,0 +1,8 @@
+{{- $src := .Get 0 -}}
+{{- $alt := .Get 1 | default "" -}}
+{{- if hasPrefix $src "/" -}}
+  {{- $src = strings.TrimPrefix "/" $src | relURL -}}
+{{- else -}}
+  {{- $src = $src | relURL -}}
+{{- end -}}
+<img src="{{ $src }}" alt="{{ $alt }}">

@@ -8,7 +8,7 @@ url: "/people/"
 [**ResearchGate**](https://www.researchgate.net/profile/Mingzhen_Lu) · [**Google Scholar**](https://scholar.google.com/citations?hl=en&oi=ao&user=YMh8t6IAAAAJ) · [**ORCID**](https://orcid.org/0000-0002-8707-8745)
 
 <div class="two-col">
-<div><img src="/images/people/mingzhen.jpg" alt="Mingzhen Lu"></div>
+<div>{{< img "/images/people/mingzhen.jpg" "Mingzhen Lu" >}}</div>
 <div>
 
 ## Mingzhen Lu (PI)
@@ -24,7 +24,7 @@ Mingzhen's fieldwork systems include the South African Cape Floristic Kingdom, A
 </div>
 
 <div class="two-col">
-<div><img src="/images/people/ignacio.jpg" alt="José Ignacio Arroyo"></div>
+<div>{{< img "/images/people/ignacio.jpg" "José Ignacio Arroyo" >}}</div>
 <div>
 
 ## José Ignacio Arroyo
@@ -37,7 +37,7 @@ Ignacio is a mathematical and computational biologist. He is interested in study
 </div>
 
 <div class="two-col">
-<div><img src="/images/people/aiyu.jpg" alt="Aiyu Zheng"></div>
+<div>{{< img "/images/people/aiyu.jpg" "Aiyu Zheng" >}}</div>
 <div>
 
 ## Aiyu Zheng
@@ -52,7 +52,7 @@ Aiyu earned her undergraduate degree from Colorado College in Integrated Environ
 </div>
 
 <div class="two-col">
-<div><img src="/images/people/steve.jpg" alt="Steve Caron"></div>
+<div>{{< img "/images/people/steve.jpg" "Steve Caron" >}}</div>
 <div>
 
 ## Steve Caron
@@ -67,7 +67,7 @@ Steve joined the lab as a Postdoctoral Associate in November 2024. He earned his
 </div>
 
 <div class="two-col">
-<div><img src="/images/people/jingkang.jpg" alt="Jingkang Liao"></div>
+<div>{{< img "/images/people/jingkang.jpg" "Jingkang Liao" >}}</div>
 <div>
 
 ## Jingkang Liao
@@ -86,7 +86,7 @@ Jingkang's fieldwork spans the beautiful alpine meadows of the Qinghai-Tibet Pla
 </div>
 
 <div class="two-col">
-<div><img src="/images/people/shloka.jpg" alt="Shloka V. Janapaty"></div>
+<div>{{< img "/images/people/shloka.jpg" "Shloka V. Janapaty" >}}</div>
 <div>
 
 ## Shloka V. Janapaty
@@ -105,7 +105,7 @@ In February 2023, Shloka received a patent for her experimental work on low-dens
 </div>
 
 <div class="two-col">
-<div><img src="/images/people/jacob.jpg" alt="Jacob Levine"></div>
+<div>{{< img "/images/people/jacob.jpg" "Jacob Levine" >}}</div>
 <div>
 
 ## Jacob Levine
