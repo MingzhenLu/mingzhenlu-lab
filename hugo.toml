@@ -1,0 +1,40 @@
+baseURL = "https://mingzhenlu-lab.com/"
+languageCode = "en-us"
+title = "Simple laws in complex systems"
+theme = "lulab"
+
+[params]
+  wordmarkLine1 = "SIMPLE LAWS IN"
+  wordmarkLine2 = "COMPLEX SYSTEMS"
+  heroImage = "/images/hero.jpg"
+  email = "mingzhen.lu@nyu.edu"
+  nyuFaculty = "https://as.nyu.edu/faculty/mingzhen-lu.html"
+  nyuDept = "https://as.nyu.edu/departments/environment.html"
+
+[[menu.main]]
+  name = "HOME"
+  url = "/"
+  weight = 10
+[[menu.main]]
+  name = "PEOPLE"
+  url = "/people/"
+  weight = 20
+[[menu.main]]
+  name = "RESEARCH"
+  url = "/research/"
+  weight = 30
+[[menu.main]]
+  name = "PUBLICATIONS"
+  url = "/publications/"
+  weight = 40
+[[menu.main]]
+  name = "NEWS&MEDIA"
+  url = "/news/"
+  weight = 50
+[[menu.main]]
+  name = "RESOURCES"
+  url = "/resources/"
+  weight = 60
+
+[markup.goldmark.renderer]
+  unsafe = true

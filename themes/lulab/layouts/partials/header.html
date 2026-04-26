@@ -1,0 +1,15 @@
+<header class="hero" style="background-image: url('{{ .Site.Params.heroImage | relURL }}');">
+  <div class="hero-overlay"></div>
+  <div class="hero-bar">
+    <a class="wordmark" href="{{ "/" | relURL }}">
+      <span>{{ .Site.Params.wordmarkLine1 }}</span>
+      <span>{{ .Site.Params.wordmarkLine2 }}</span>
+    </a>
+    <nav class="nav">
+      {{ range .Site.Menus.main }}
+        <a href="{{ .URL | relURL }}" class="nav-link">{{ .Name }}</a>
+      {{ end }}
+      <a href="{{ "/gallery/" | relURL }}" class="nav-pill">GALLERY</a>
+    </nav>
+  </div>
+</header>
