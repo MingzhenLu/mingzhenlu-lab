@@ -171,6 +171,17 @@ img { max-width: 100%; height: auto; display: block; }
   margin-top: 0;
 }
 
+/* Zigzag layout: every other .two-col swaps photo/text columns visually
+   (text reads LTR; only the grid placement flips). Affects pages with
+   multiple consecutive .two-col blocks like /people/. */
+.two-col:nth-of-type(even) > div:first-child  { order: 2; }
+.two-col:nth-of-type(even) > div:nth-child(2) { order: 1; }
+@media (max-width: 720px) {
+  /* On mobile both columns stack to one; ensure text follows photo for every row */
+  .two-col:nth-of-type(even) > div:first-child  { order: 1; }
+  .two-col:nth-of-type(even) > div:nth-child(2) { order: 2; }
+}
+
 /* ---------- Stacked theme section (full-width photo + text) ---------- */
 .theme-section {
   margin: 0 0 72px;
