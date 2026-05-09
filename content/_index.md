@@ -23,7 +23,7 @@ NYU Environmental Studies admits PhD students through NYU's Graduate School of A
 
 If the lab's work resonates, please feel free to email me at <mingzhen.lu@nyu.edu> with subject line `Prospective PhD` before applying. A short note about the questions that pull at you, and any work you've already done around them, helps me give you a useful response.
 
-### Inquiries about postdoc / research assistant opportunities
+## Inquiries about postdoc / research assistant opportunities
 
 We welcome inquiries even when no positions are listed. We are motivated by exciting questions, not limited by systems, techniques, or domains of knowledge. We are always on the lookout for motivated and talented scientists who are excited to push the boundaries of research in ecosystem ecology, urban science, and global biogeochemistry. For inquiries about postdoc or research assistant opportunities, please contact Prof. Mingzhen Lu at <mingzhen.lu@nyu.edu> with the subject line: `Inquiry_opportunities`.
 
