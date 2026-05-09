@@ -107,6 +107,21 @@ A former assistant research scientist in our group, Shloka is now a PhD student 
 </div>
 
 <div class="two-col">
+<div>{{< img "/images/people/shiyue.jpg" "Shiyue Zhang" >}}</div>
+<div>
+
+## Shiyue Zhang
+
+***Graduate Student Affiliate***
+
+Shiyue is an M.S. student in Data Science at New York University. Her research interests lie at the intersection of machine learning, computational social science, and the digital humanities, with a particular focus on how data-driven methods can support the study of historical and social processes across space and time. She is especially interested in applying computational tools to enrich traditional humanities research by uncovering large-scale patterns, testing historical hypotheses, and integrating diverse forms of spatial and temporal data. She is currently working with Mingzhen and Aiyu on projects related to the rise and fall of ancient cities, combining historical GIS, human mobility modeling, and network analysis to study long-term urban dynamics and regional connectivity.
+
+She earned her bachelor's degree in Finance from the Chinese University of Hong Kong, Shenzhen in 2025.
+
+</div>
+</div>
+
+<div class="two-col">
 <div>{{< img "/images/people/sahil.jpg" "Sahil Parupudi" >}}</div>
 <div>
 
@@ -130,6 +145,19 @@ Sahil Parupudi is a MS Data Science student at NYU Center for Data Science. His 
 Bruce is an M.S. student in Data Science at New York University. His research interests broadly lie in human mobility modeling, reinforcement learning, and computational social systems. He is particularly interested in understanding large-scale population dynamics and decision-making processes through data-driven approaches, simulation, and machine learning methods. His recent work includes reinforcement learning for budget-constrained ad bidding, semantic trajectory mining with large language models, and modeling population flow. Outside of research, he is interested in urban systems and interactive simulations, and fitness.
 
 He earned his bachelor's degrees in Statistics & Data Science and Applied Mathematics from University of California, Los Angeles in 2025.
+
+</div>
+</div>
+
+<div class="two-col">
+<div>{{< img "/images/people/maia.jpg" "Maia Opazo" >}}</div>
+<div>
+
+## Maia Opazo
+
+***Sustainability Undergraduate Research Assistant***
+
+Maia Opazo (she/her/ella) is an undergraduate research assistant at the Lu Lab. Her research interests are in environmental justice and urban waste governance. She is an Environmental Studies major with a minor in German.
 
 </div>
 </div>
