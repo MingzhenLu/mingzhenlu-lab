@@ -141,27 +141,65 @@ img { max-width: 100%; height: auto; display: block; }
 /* ---------- Two-column figure+text grid (Squarespace-style) ---------- */
 .two-col {
   display: grid;
-  grid-template-columns: 1fr 1.4fr;
+  grid-template-columns: 1fr 1fr;
   gap: 48px;
   align-items: start;
   margin: 0 0 56px;
 }
-.two-col img { width: 100%; border-radius: 2px; }
+.two-col img { width: 100%; border-radius: 2px; display: block; }
 .two-col-reverse {
   display: grid;
-  grid-template-columns: 1.4fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 48px;
   align-items: start;
   margin: 0 0 56px;
 }
-.two-col-reverse img { width: 100%; border-radius: 2px; }
+.two-col-reverse img { width: 100%; border-radius: 2px; display: block; }
+
+/* Tighter typography inside two-col so the side text doesn't overpower the photo */
+.two-col p, .two-col-reverse p,
+.two-col li, .two-col-reverse li { font-size: 17px; line-height: 1.65; }
+
+/* Top-align heading with photo top: zero margin on the first heading inside any
+   two-col text column, regardless of heading level (h2/h3/h4) */
+.two-col > div > h2:first-child,
+.two-col > div > h3:first-child,
+.two-col > div > h4:first-child,
+.two-col-reverse > div > h2:first-child,
+.two-col-reverse > div > h3:first-child,
+.two-col-reverse > div > h4:first-child {
+  margin-top: 0;
+}
+
+/* ---------- Stacked theme section (full-width photo + text) ---------- */
+.theme-section {
+  margin: 0 0 72px;
+}
+.theme-section img {
+  width: 100%;
+  border-radius: 2px;
+  display: block;
+  margin: 16px 0 8px;
+}
+.theme-section h3 {
+  margin-bottom: 12px;
+}
 
 /* ---------- Per-photo aspect-ratio overrides (landscape / widescreen originals) ---------- */
-.two-col img[src$="aiyu.jpg"],
 .two-col img[src$="ignacio.jpg"] {
   aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: center;
+}
+.two-col img[src$="aiyu.jpg"] {
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: center;
+}
+.two-col img[src$="sahil.jpg"] {
+  aspect-ratio: 9 / 10;
+  object-fit: cover;
+  object-position: center 30%;
 }
 .two-col img[src$="bruce.jpg"] {
   aspect-ratio: 3 / 4;

@@ -13,17 +13,19 @@ Our team brings together multi-disciplinary talents and believes in bottom-up pr
 </div>
 </div>
 
-## Opportunities
+## Prospective PhD students
 
-Applications are now open for the [PhD in Environmental Studies](https://gsas.nyu.edu/admissions/phd-and-ma-program-admissions.html) at NYU's Graduate School of Arts & Science. **The application deadline is December 1.** Follow these links for [FAQs](https://as.nyu.edu/departments/environment.html) and details on the application process and requirements.
+I'm always glad to hear from prospective PhD students whose curiosity overlaps with the lab's questions — simple laws across natural and human-dominated systems, biogeochemistry, urban science, and the cross-pollination between them. What I value most is curiosity and the drive to bridge domains in pursuit of new discoveries.
 
-### New PhD/JD in Environmental Studies
+NYU Environmental Studies admits PhD students through NYU's Graduate School of Arts & Science. The application deadline is **December 1**. See the [program FAQs](https://as.nyu.edu/departments/environment.html) for details on the application process and requirements.
 
-A dual-degree program between NYU's School of Law and the Environmental Studies Department is now available for prospective students interested in pursuing a path in law. Please review details on our department website and on the School of Law's dedicated webpage.
+**A note on funding.** Admitted PhD students at NYU receive a guaranteed five years of fellowship support — stipend, tuition, and health coverage — funded by the university rather than tied to a single advisor's grant from day one. That structure leaves you room to follow the question wherever it leads, including the unexpected places that often turn out to matter most.
+
+If the lab's work resonates, please feel free to email me at <mingzhen.lu@nyu.edu> with subject line `Prospective PhD` before applying. A short note about the questions that pull at you, and any work you've already done around them, helps me give you a useful response.
 
 ### Inquiries about postdoc / research assistant opportunities
 
-We welcome inquiries even when no positions are listed. We are motivated by exciting questions, not limited by systems, techniques, or domains of knowledge. We are always on the lookout for motivated and talented scientists who are excited to push the boundaries of research in ecosystem ecology and global biogeochemistry. For inquiries about postdoc or research assistant opportunities, please contact Prof. Mingzhen Lu at <mingzhen.lu@nyu.edu> with the subject line: `Inquiry_opportunities`.
+We welcome inquiries even when no positions are listed. We are motivated by exciting questions, not limited by systems, techniques, or domains of knowledge. We are always on the lookout for motivated and talented scientists who are excited to push the boundaries of research in ecosystem ecology, urban science, and global biogeochemistry. For inquiries about postdoc or research assistant opportunities, please contact Prof. Mingzhen Lu at <mingzhen.lu@nyu.edu> with the subject line: `Inquiry_opportunities`.
 
 ## Most recent news
 
