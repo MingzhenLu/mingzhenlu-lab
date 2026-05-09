@@ -5,17 +5,17 @@ url: "/people/"
 
 # Lab Members
 
-[**ResearchGate**](https://www.researchgate.net/profile/Mingzhen_Lu) · [**Google Scholar**](https://scholar.google.com/citations?hl=en&oi=ao&user=YMh8t6IAAAAJ) · [**ORCID**](https://orcid.org/0000-0002-8707-8745)
-
 <div class="two-col">
 <div>{{< img "/images/people/mingzhen.jpg" "Mingzhen Lu" >}}</div>
 <div>
 
 ## Mingzhen Lu (PI)
 
+[**ResearchGate**](https://www.researchgate.net/profile/Mingzhen_Lu) · [**Google Scholar**](https://scholar.google.com/citations?hl=en&oi=ao&user=YMh8t6IAAAAJ) · [**ORCID**](https://orcid.org/0000-0002-8707-8745)
+
 [Mingzhen Lu](https://as.nyu.edu/faculty/mingzhen-lu.html) is an ecologist and complexity scientist. His research seeks to unearth the simple rules that give rise to the complex dynamics of terrestrial ecosystems and their coupled human urban systems. Specific research topics include i) examining the role of plant roots in shaping global biogeochemistry, ii) understanding plant-microbial symbioses and their global significance, iii) investigating ecological regime shifts using the lens of plant-trait-resource feedback, and more recently iv) developing a general system-based theory that can bridge ecosystem ecology and urban science.
 
-Mingzhen's fieldwork systems include the South African Cape Floristic Kingdom, Alaskan Tundra, Tibetan grassland, etc. Prior to NYU, Mingzhen was an [Omidyar Complexity Fellow](https://www.santafe.edu/people/profile/mingzhen-lu) at the [Santa Fe Institute](https://www.santafe.edu) (2020–2023), where he worked on applying toolkits from ecosystem ecology for better understanding urban material flows. He is a board member of [SinoEco](https://sino-eco.org), and member of Sigma Xi, Ecological Society of America, and the American Geophysical Union.
+Mingzhen's fieldwork systems include the South African Cape Floristic Kingdom, Tibetan grassland, etc. Prior to NYU, Mingzhen was an [Omidyar Complexity Fellow](https://www.santafe.edu/people/profile/mingzhen-lu) at the [Santa Fe Institute](https://www.santafe.edu) (2020–2023), where he worked on applying toolkits from ecosystem ecology for better understanding urban material flows. He is a board member of [SinoEco](https://sino-eco.org), and member of Sigma Xi, Ecological Society of America, and the American Geophysical Union.
 
 - Ph.D. Ecology and Evolutionary Biology (2018), Princeton University
 - B.S. Physical Geography (2012), Peking University
@@ -44,9 +44,15 @@ Ignacio is a mathematical and computational biologist. He is interested in study
 
 ***Postdoctoral Associate***
 
-Aiyu is a forest ecologist interested in exploring the multi-scale ecological consequences of plant life histories, growth, and reproductive strategies using mathematical models and empirical work. Her research focuses on a unique group of forest grasses, bamboo, to establish a theoretical framework that explains and predicts arrested succession—when a system fails to recover its structure or function from disturbances, whether internal or external. She is working on applying the framework to diverse ecosystems, ranging from forests affected by wildfires, semi-arid grasslands impacted by grazing, to urban systems varying in socioeconomic development.
+[**Personal site**](https://aiyuzheng.com/) · [**Google Scholar**](https://scholar.google.com/citations?user=iEDBMGUAAAAJ&hl=en)
 
-Aiyu earned her undergraduate degree from Colorado College in Integrated Environmental Science in 2018 and got her PhD degree in 2024 from Princeton University working with Stephen Pacala. More: <https://aiyuzheng.com/>.
+Aiyu is a forest ecologist interested in exploring the multi-scale ecological consequences of plant life histories, growth, and reproductive strategies using mathematical models and empirical work.
+
+Her research focuses on grassy trees, large canopy monocots such as bamboo, palms, and bananas that combine grass-like rapid growth with tree-like canopy persistence. While using theory to understand how large terrestrial plants achieve structural persistence without secondary growth, she also works on promoting these species as nature-based solutions for climate and livelihood benefits in tropical regions. Besides natural forests, she also studies the urban dynamics of concrete forests with human populations residing within them. Using ecology-inspired metapopulation theory and network analysis, she investigates drivers of urban decay and growth, identifying potential regions for policy interventions to improve urban socioeconomic resilience.
+
+Besides research, Aiyu is also passionate about teaching ecology and environmental science at all levels, and is excited about exploring pedagogical techniques for promoting learning, especially for underresourced groups.
+
+Aiyu earned her undergraduate degree from Colorado College in Integrated Environmental Science in 2018 and got her PhD degree in 2024 from Princeton University working with Stephen Pacala.
 
 </div>
 </div>
@@ -93,28 +99,49 @@ Jingkang's fieldwork spans the beautiful alpine meadows of the Qinghai-Tibet Pla
 
 ***Graduate Student Affiliate***
 
-[**Google Scholar**](https://scholar.google.com/citations?hl=en&oi=ao&user=7ODsYpwAAAAJ)
+[**Personal site**](https://sjanapaty.github.io) · [**Google Scholar**](https://scholar.google.com/citations?hl=en&oi=ao&user=7ODsYpwAAAAJ)
 
-A former assistant research scientist in our group, [Shloka](https://sjanapaty.github.io) is now a PhD student of EEB at Princeton University, working with Lars Hedin and Simon Levin. Her academic interests lie in biogeochemistry, theoretical ecology, and waste management. She aims to use tools from mathematics and computer science to investigate plant-microbial communities in their changing geochemical environments.
-
-Shloka is particularly interested in biocrusts, communities of cyanobacteria, lichen, and nonvascular plants that extensively cover the global terrestrial surface. She is currently working with Mingzhen and [Chris Kempes](https://www.santafe.edu/people/profile/chris-kempes) on the emergence of spatiotemporal order in biocrust communities from simple growth, death, and competitive constraints.
-
-In February 2023, Shloka received a patent for her experimental work on low-density polyethylene degradation in landfills. She is also a [Straubel Research Fellow](https://www.straubelfoundation.org/straubelfellows) and [United Nations Millennium Fellow](https://www.millenniumfellows.org/fellow/2021/columbia/shloka-v.-janapaty). In April 2024, Shloka won the [NSF GRFP fellowship](https://www.nsfgrfp.org).
+A former assistant research scientist in our group, Shloka is now a PhD student of EEB at Princeton University, working with Lars Hedin and Simon Levin. She continues collaborating with Mingzhen and [Chris Kempes](https://www.santafe.edu/people/profile/chris-kempes) on the emergence of spatiotemporal order in biocrust communities.
 
 </div>
 </div>
 
 <div class="two-col">
-<div>{{< img "/images/people/jacob.jpg" "Jacob Levine" >}}</div>
+<div>{{< img "/images/people/sahil.jpg" "Sahil Parupudi" >}}</div>
 <div>
 
-## Jacob Levine
+## Sahil Parupudi
 
-***Visiting Scholar***
+***Graduate Student Affiliate***
 
+Sahil Parupudi is a MS Data Science student at NYU Center for Data Science. His interests include computer vision and applied deep learning. He has worked on building vision-based pipelines involving object detection and segmentation. At the Lu Lab, he is contributing to the GrassyTree Detection project, developing models to identify and map grassy tree species from crowdsourced geotagged photography.
+
+</div>
+</div>
+
+<div class="two-col">
+<div>{{< img "/images/people/bruce.jpg" "Yiwen (Bruce) Zhang" >}}</div>
+<div>
+
+## Yiwen (Bruce) Zhang
+
+***Graduate Student Affiliate***
+
+Bruce is an M.S. student in Data Science at New York University. His research interests broadly lie in human mobility modeling, reinforcement learning, and computational social systems. He is particularly interested in understanding large-scale population dynamics and decision-making processes through data-driven approaches, simulation, and machine learning methods. His recent work includes reinforcement learning for budget-constrained ad bidding, semantic trajectory mining with large language models, and modeling population flow. Outside of research, he is interested in urban systems and interactive simulations, and fitness.
+
+He earned his bachelor's degrees in Statistics & Data Science and Applied Mathematics from University of California, Los Angeles in 2025.
+
+</div>
+</div>
+
+---
+
+# Alumni
+
+### Jacob Levine
+*Visiting Scholar, 2024–2025* — now Assistant Professor of Biology, Duke University (Fall 2026).
 [Google Scholar](https://scholar.google.com/citations?user=qYyKtu8AAAAJ&hl=en&oi=ao)
 
-Jacob is a plant community ecologist interested in the controls over biodiversity, ecosystem function, and global change responses. He specializes in developing and empirically validating mathematical models which bridge ecophysiology, demography, and ecosystem function to capture the dynamics of diverse plant communities. Jacob aims to marry theoretical and empirical approaches to ecology, leveraging state-of-the-art techniques in applied math, statistical inference, software engineering, and high-performance computing as well as experimental design, remote sensing and data science. Jacob earned his undergraduate degree from UC Berkeley and got his PhD degree from Princeton University in May 2024, where he worked with Drs. Stephen Pacala and Jonathan Levine.
-
-</div>
-</div>
+### Shloka V. Janapaty
+*Assistant Research Scientist, 2023–2024* — now PhD student in EEB at Princeton University (Hedin & Levin labs).
+[Personal site](https://sjanapaty.github.io)

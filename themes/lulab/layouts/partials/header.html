@@ -1,4 +1,5 @@
-<header class="hero" style="background-image: url('{{ .Site.Params.heroImage | relURL }}');">
+<header class="hero">
+  <img class="hero-img" src="{{ .Site.Params.heroImage | relURL }}" alt="">
   <div class="hero-overlay"></div>
   <div class="hero-bar">
     <a class="wordmark" href="{{ "/" | relURL }}">
