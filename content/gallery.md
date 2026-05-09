@@ -22,9 +22,9 @@ A visual record of fieldwork, lab moments, and lab life across the Cape Floristi
 {{< img "/images/gallery/photo-14.jpg" "River flowing through Karst system, Guilin, Guangxi, China" >}}
 {{< img "/images/gallery/photo-15.jpeg" "" >}}
 {{< img "/images/gallery/photo-16.png" "Biocrust (photo credit: Shloka)" >}}
-{{< img "/images/gallery/photo-17.jpeg" "Alpine grassland, Haibei, Northern Qinghai-Tibetan Plateau" >}}
-{{< img "/images/gallery/photo-18.jpeg" "Biocrust in seasonal river bed, 11,800 feet elevation" >}}
-{{< img "/images/gallery/photo-19.jpeg" "Alpine shrub vs grassland" >}}
+{{< img "/images/gallery/photo-17.jpeg" "Alpine grassland, Haibei, Northern Qinghai-Tibetan Plateau (photo credit: Jingkang)" >}}
+{{< img "/images/gallery/photo-18.jpeg" "Biocrust in seasonal river bed, 11,800 feet elevation (photo credit: Jingkang)" >}}
+{{< img "/images/gallery/photo-19.jpeg" "Alpine shrub vs grassland (photo credit: Jingkang)" >}}
 {{< img "/images/gallery/photo-20.jpeg" "" >}}
 {{< img "/images/gallery/photo-21.jpeg" "" >}}
 {{< img "/images/gallery/photo-22.jpeg" "" >}}

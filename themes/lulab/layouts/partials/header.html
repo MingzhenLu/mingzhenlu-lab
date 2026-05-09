@@ -1,5 +1,32 @@
 <header class="hero">
-  <img class="hero-img" src="{{ .Site.Params.heroImage | relURL }}" alt="">
+  <div class="hero-slides">
+    {{ $base := slice
+      (dict "src" "images/gallery/photo-13.jpg"   "pos" "center 50%")
+      (dict "src" "images/gallery/photo-08.jpg"   "pos" "center 55%")
+      (dict "src" "images/gallery/photo-07.jpg"   "pos" "center 60%")
+      (dict "src" "images/gallery/photo-14.jpg"   "pos" "center 90%")
+      (dict "src" "images/gallery/photo-17.jpeg"  "pos" "center 75%")
+      (dict "src" "images/gallery/photo-18.jpeg"  "pos" "center 55%")
+      (dict "src" "images/gallery/photo-19.jpeg"  "pos" "center 80%")
+    }}
+    {{ $offsets := dict
+      "/"              6
+      "/people/"       1
+      "/research/"     2
+      "/publications/" 3
+      "/news/"         4
+      "/resources/"    5
+      "/gallery/"      0
+    }}
+    {{ $offset := index $offsets .RelPermalink | default 0 }}
+    {{ $slides := $base }}
+    {{ if gt $offset 0 }}
+      {{ $slides = append (first $offset $base) (after $offset $base) }}
+    {{ end }}
+    {{ range $i, $s := $slides }}
+      <img class="hero-img{{ if eq $i 0 }} active{{ end }}" src="{{ $s.src | relURL }}" style="object-position: {{ $s.pos }}" alt="">
+    {{ end }}
+  </div>
   <div class="hero-overlay"></div>
   <div class="hero-bar">
     <a class="wordmark" href="{{ "/" | relURL }}">
@@ -14,3 +41,29 @@
     </nav>
   </div>
 </header>
+<script>
+(function(){
+  var slides = document.querySelectorAll('.hero-slides .hero-img');
+  if (slides.length < 2) return;
+  var i = 0;
+  var timer;
+  function advance(){
+    slides[i].classList.remove('active');
+    i = (i + 1) % slides.length;
+    slides[i].classList.add('active');
+  }
+  function schedule(){
+    clearInterval(timer);
+    timer = setInterval(advance, 15000);
+  }
+  schedule();
+  var hero = document.querySelector('.hero-slides');
+  if (hero) {
+    hero.style.cursor = 'pointer';
+    hero.addEventListener('click', function(){
+      advance();
+      schedule();
+    });
+  }
+})();
+</script>
