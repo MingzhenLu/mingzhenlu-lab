@@ -6,7 +6,7 @@ title: "Home"
 <div>{{< img "/images/home/arch.jpg" "Washington Square Arch" >}}</div>
 <div>
 
-The overarching research mission of the Lu Lab is to **uncover** the simple laws behind the complexity of natural and human-dominated systems, and to **cross-pollinate** these laws across disparate domains for unexpected discoveries.
+The overarching research mission of the Lu Lab is to develop **an ecological theory of complex living systems** — uncovering organizing principles that govern natural and human-dominated systems alike, and **cross-pollinating** these principles across disparate domains for unexpected discoveries.
 
 Our team brings together multi-disciplinary talents and believes in bottom-up processes that connect the dots, fostering the fertile soil where reckless ideas germinate and flourish. We integrate the power of data-mining, fieldwork, and remote sensing to feed into our theoretical quest for transferable organizing laws. Instead of worrying about tradeoffs, we identify and expand the boundary of constraints, hey, cross-boundary can be both fun and robust.
 
@@ -15,7 +15,7 @@ Our team brings together multi-disciplinary talents and believes in bottom-up pr
 
 ## Prospective PhD students
 
-I'm always glad to hear from prospective PhD students whose curiosity overlaps with the lab's questions — simple laws across natural and human-dominated systems, biogeochemistry, urban science, and the cross-pollination between them. What I value most is curiosity and the drive to bridge domains in pursuit of new discoveries.
+I'm always glad to hear from prospective PhD students whose curiosity overlaps with the lab's questions — ecological theory of complex living systems, spanning biogeochemistry, urban science, and the cross-pollination between them. What I value most is curiosity and the drive to bridge domains in pursuit of new discoveries.
 
 NYU Environmental Studies admits PhD students through NYU's Graduate School of Arts & Science. The application deadline is **December 1**. See the [program FAQs](https://as.nyu.edu/departments/environment.html) for details on the application process and requirements.
 

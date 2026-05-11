@@ -3,9 +3,9 @@ title: "Research"
 url: "/research/"
 ---
 
-## Uncovering simple laws in complex systems to spark cross-domain insights
+## Building an ecological theory of complex living systems
 
-Our research aims to **uncover** the simple laws behind the complexity of natural and human-dominated systems, and to **cross-pollinate** these laws across disparate domains for unexpected discoveries.
+Our research aims to develop an ecological theory of complex living systems, uncovering organizing principles that govern natural and human-dominated systems alike, and **cross-pollinating** these principles across disparate domains for unexpected discoveries.
 
 Drawing from biogeochemistry, theoretical ecology, and complexity science, our work integrates the power of data-mining, fieldwork, and remote sensing to feed into our theoretical quest for transferable organizing laws.
 

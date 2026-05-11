@@ -1,11 +1,11 @@
 baseURL = "https://mingzhenlu-lab.com/"
 languageCode = "en-us"
-title = "Simple laws in complex systems"
+title = "Ecological theory of complex living systems"
 theme = "lulab"
 
 [params]
-  wordmarkLine1 = "SIMPLE LAWS IN"
-  wordmarkLine2 = "COMPLEX SYSTEMS"
+  wordmarkLine1 = "ECOLOGICAL THEORY"
+  wordmarkLine2 = "OF COMPLEX LIVING SYSTEMS"
   heroImage = "images/hero.jpg"
   email = "mingzhen.lu@nyu.edu"
   nyuFaculty = "https://as.nyu.edu/faculty/mingzhen-lu.html"
