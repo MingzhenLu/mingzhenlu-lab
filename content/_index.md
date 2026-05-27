@@ -29,6 +29,8 @@ We welcome inquiries even when no positions are listed. We are motivated by exci
 
 ## Most recent news
 
+**05-25-2026** — Congratulations to [Mina (Yu-Hsuan Hsu)](https://www.linkedin.com/in/mina-hsu/) and [Serguei Saavedra](https://cee.mit.edu/people_individual/serguei-saavedra/) for their new paper in *EPJ Data Science*: "[The impact of strong activity disruption on building energetics](https://doi.org/10.1140/epjds/s13688-026-00666-x)." Do buildings have a metabolism? Mina, Serguei, and colleagues (Mingzhen included) show that building energy use scales sublinearly with volume, much like biological organisms — and that COVID-19 disrupted this pattern.
+
 [**For more news →**](/news/)
 
 ## Contact

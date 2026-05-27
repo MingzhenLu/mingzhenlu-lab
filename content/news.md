@@ -3,7 +3,16 @@ title: "News & Media"
 url: "/news/"
 ---
 
+<div class="news-layout">
+<div>
+
 # News
+
+### 05-25-2026
+
+Congratulations to [Mina (Yu-Hsuan Hsu)](https://www.linkedin.com/in/mina-hsu/) and [Serguei Saavedra](https://cee.mit.edu/people_individual/serguei-saavedra/) for their new paper in *EPJ Data Science*: "[The impact of strong activity disruption on building energetics](https://doi.org/10.1140/epjds/s13688-026-00666-x)." Do buildings have a metabolism? Mina, Serguei, and colleagues show that building energy use scales sublinearly with volume, much like biological organisms — and that COVID-19 disrupted this pattern, revealing the fragility of building energetics under external shocks. Grateful to be part of this work alongside [Sara Beery](https://beerys.github.io) (MIT) and [Chris Kempes](https://www.santafe.edu/people/profile/chris-kempes) (SFI). Read [Mina's paper](https://doi.org/10.1140/epjds/s13688-026-00666-x) to find out more.
+
+- [The impact of strong activity disruption on building energetics (EPJ Data Science)](https://doi.org/10.1140/epjds/s13688-026-00666-x)
 
 ### 06-17-2025
 
@@ -97,3 +106,41 @@ Together with Dr. [Shersingh Joseph Tumber-Dávila](https://sjtumber.weebly.com)
 - Aaron Sidder (2022). "[What lies beneath: Roots as drivers of South African landscape pattern](https://www.santafe.edu/news-center/news/exploration-biome-boundary-reveals-roots-drivers-biodiversity-and-landscape-pattern)"
 - Morgan Kelly (2019). "[Local plant-microbe alliances shape global biomes](https://www.princeton.edu/news/2019/04/17/local-plant-microbe-alliances-shape-global-biomes)"
 - Morgan Kelly (2018). "[Theory suggests root efficiency, independence drove global spread of flora](https://environment.princeton.edu/news/theory-suggests-root-efficiency-independence-drove-global-spread-of-flora/)"
+
+</div>
+<div class="bsky-sidebar" id="bsky-sidebar"></div>
+</div>
+
+<script>
+(function() {
+  const HANDLE = 'mingzhenlu.bsky.social';
+  const LIMIT = 5;
+  const sidebar = document.getElementById('bsky-sidebar');
+  
+  fetch(`https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=${HANDLE}&limit=${LIMIT}&filter=posts_no_replies`)
+    .then(r => r.json())
+    .then(data => {
+      if (!data.feed || !data.feed.length) return;
+      
+      let html = `<div class="bsky-header"><a href="https://bsky.app/profile/${HANDLE}" target="_blank">@${HANDLE.split('.')[0]}</a></div>`;
+      
+      data.feed.forEach(item => {
+        const post = item.post;
+        const date = new Date(post.record.createdAt);
+        const monthNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+        const dateStr = `${monthNames[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
+        const text = (post.record.text || '').slice(0, 120);
+        const truncated = text.length < (post.record.text || '').length ? text.trim() + '...' : text;
+        const rkey = post.uri.split('/').pop();
+        const authorHandle = post.author.handle;
+        const link = `https://bsky.app/profile/${authorHandle}/post/${rkey}`;
+        
+        html += `<a class="bsky-post" href="${link}" target="_blank"><span class="bsky-date">${dateStr}</span><span class="bsky-text">${truncated}</span></a>`;
+      });
+      
+      html += `<a class="bsky-follow" href="https://bsky.app/profile/${HANDLE}" target="_blank">Follow on Bluesky &rarr;</a>`;
+      sidebar.innerHTML = html;
+    })
+    .catch(() => {});
+})();
+</script>
