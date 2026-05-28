@@ -8,7 +8,7 @@ url: "/publications/"
 ## 2026
 
 - Thompson, L., Wang, C., **Lu, M.** (2026). "[Contrasting patterns in urban energy and emission scaling](https://doi.org/10.1088/1748-9326/ae71ed)." <u>*Environmental Research Letters*</u>.
-  <br><span class="pub-links"><a href="javascript:void(0)" class="pub-toggle" data-key="thompson2026" data-type="bib">[BibTeX]</a> <a href="javascript:void(0)" class="pub-toggle" data-key="thompson2026" data-type="abs">[Abstract]</a></span>
+  <br><span class="pub-links"><a href="javascript:void(0)" class="pub-toggle" data-key="thompson2026" data-type="bib">[BibTeX]</a> <a href="javascript:void(0)" class="pub-toggle" data-key="thompson2026" data-type="abs">[Abstract]</a> <a href="/papers/Thompson2026_UrbanEnergyEmission.pdf" class="pub-pdf" target="_blank">[PDF]</a></span>
 
 - Hsu, Y.-H., Beery, S., Kempes, C.P., **Lu, M.**, Saavedra, S. (2026). "[The impact of strong activity disruption on building energetics](https://doi.org/10.1140/epjds/s13688-026-00666-x)." <u>*EPJ Data Science*</u> (in press).
   <br><span class="pub-links"><a href="javascript:void(0)" class="pub-toggle" data-key="hsu2026" data-type="bib">[BibTeX]</a> <a href="javascript:void(0)" class="pub-toggle" data-key="hsu2026" data-type="abs">[Abstract]</a> <a href="/papers/Hsu2026_BuildingEnergetics.pdf" class="pub-pdf" target="_blank">[PDF]</a></span>
