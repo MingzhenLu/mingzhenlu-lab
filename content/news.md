@@ -8,6 +8,12 @@ url: "/news/"
 
 # News
 
+### 05-27-2026
+
+A new paper from [Chenghao Wang](https://chenghaow.github.io/)'s [SURF Lab](https://chenghaow.github.io/) at the University of Oklahoma, led by Liam Thompson, in *Environmental Research Letters*: "[Contrasting patterns in urban energy and emission scaling](https://doi.org/10.1088/1748-9326/ae71ed)." A meta-analysis of 362 scaling exponents reveals an intriguing mismatch: urban energy consumption tends to scale superlinearly with population, but most pollutant emissions scale sublinearly. Why the opposite directions? Cities consume energy within their boundaries, but much of it — especially electricity — is produced elsewhere. The emissions get displaced to power plants and industrial sites outside city limits. Are cities more like organisms, ecosystems, or a mixture of both? If we think of cities as super-organisms, where do we draw the boundary of their metabolism?
+
+- [Contrasting patterns in urban energy and emission scaling (Environmental Research Letters)](https://doi.org/10.1088/1748-9326/ae71ed)
+
 ### 05-25-2026
 
 Congratulations to [Mina (Yu-Hsuan Hsu)](https://www.linkedin.com/in/mina-hsu/) and [Serguei Saavedra](https://cee.mit.edu/people_individual/serguei-saavedra/) for their new paper in *EPJ Data Science*: "[The impact of strong activity disruption on building energetics](https://doi.org/10.1140/epjds/s13688-026-00666-x)." Do buildings have a metabolism? Mina, Serguei, and colleagues show that building energy use scales sublinearly with volume, much like biological organisms — and that COVID-19 disrupted this pattern, revealing the fragility of building energetics under external shocks. Grateful to be part of this work alongside [Sara Beery](https://beerys.github.io) (MIT) and [Chris Kempes](https://www.santafe.edu/people/profile/chris-kempes) (SFI). Read [Mina's paper](https://doi.org/10.1140/epjds/s13688-026-00666-x) to find out more.
