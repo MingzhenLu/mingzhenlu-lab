@@ -35,7 +35,7 @@ url: "/publications/"
 
 - Huang, K.\* & **Lu, M.\*** (2025). "[Nested economies of scale in global city mass](https://arxiv.org/abs/2507.03960)." <u>*arXiv preprint arXiv:2507.03960*</u> (in revision at <u>*Nature Cities*</u>).
   <br><span class="pub-links"><a href="javascript:void(0)" class="pub-toggle" data-key="huang2025" data-type="bib">[BibTeX]</a> <a href="javascript:void(0)" class="pub-toggle" data-key="huang2025" data-type="abs">[Abstract]</a> <a href="/papers/Huang%26Lu2025_NestedScale.pdf" class="pub-pdf" target="_blank">[PDF]</a></span>
-  <br><span class="pub-press">Companion site: [nested-complexity.net](https://nested-complexity.net)</span>
+  <br><span class="pub-press">Companion site: [city-mass.nested-complexity.net](https://city-mass.nested-complexity.net)</span>
 
 - Malhotra, A., Moore, J.A.M., Weintraub-Leff, S., Georgiou, K., Berhe, A.A., Billings, S.A., de Graaff, M.-A., Fraterrigo, J.M., Grandy, A.S., Kyker-Snowman, E., **Lu, M.**, Meier, C., Pierson, D., Tumber-Dávila, S.J., Lajtha, K., Wieder, W.R., Jackson, R.B. (2025). "[Fine root and soil carbon stocks are positively related in grasslands but not in forests](https://www.nature.com/articles/s43247-025-02486-9)." <u>*Communications Earth & Environment*</u> 6(1), 497.
   <br><span class="pub-links"><a href="javascript:void(0)" class="pub-toggle" data-key="malhotra2025" data-type="bib">[BibTeX]</a> <a href="javascript:void(0)" class="pub-toggle" data-key="malhotra2025" data-type="abs">[Abstract]</a> <a href="/papers/Malhotra2025_FineRootCarbon.pdf" class="pub-pdf" target="_blank">[PDF]</a></span>

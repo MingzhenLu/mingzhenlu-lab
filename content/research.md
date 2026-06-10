@@ -48,7 +48,7 @@ Drawing from biogeochemistry, theoretical ecology, and complexity science, our w
 
 {{< img "/images/research/urban-systems.jpg" "Urban systems collage" >}}
 
-> **Companion site:** [nested-complexity.net](https://nested-complexity.net) — interactive exploration of nested scaling in city mass, accompanying Huang & Lu (2025).
+> **Companion site:** [city-mass.nested-complexity.net](https://city-mass.nested-complexity.net) — interactive exploration of nested scaling in city mass, accompanying Huang & Lu (2025).
 
 **Relevant publications:**
 
