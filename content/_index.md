@@ -35,10 +35,10 @@ We welcome inquiries even when no positions are listed. We are motivated by exci
 
 ## Contact
 
-[Department of Environmental Studies](https://as.nyu.edu/departments/environment.html)
-79 Washington Square East, Rm. 511
-New York, NY 10012
-(212) 992-9670
-<mingzhen.lu@nyu.edu>
+[Department of Environmental Studies](https://as.nyu.edu/departments/environment.html) <br>
+79 Washington Square East, Rm. 511 <br>
+New York, NY 10012 <br>
+(212) 992-9670 <br>
+<mingzhen.lu@nyu.edu> <br>
 
 [NYU faculty page](https://as.nyu.edu/faculty/mingzhen-lu.html)
