@@ -8,6 +8,14 @@ url: "/news/"
 
 # News
 
+### 07-10-2026
+
+Congratulations to [Steve (Stephen Caron)](/people/) for winning the [NYU Trailblazer Postdoc Award](https://www.nyu.edu/research/resources-and-support-offices/postdoctoral-affairs/current-postdocs/nyu-postdoc-research-grants.html), a two-year fellowship from NYU's Office of Postdoctoral Affairs. The award supports Steve's push across three frontiers: forest biogeochemistry, the forest–urban boundary, and the science of nature management. Steve also now leads the international Beech Leaf Disease (BLD) network, coordinating researchers who track this emerging threat to beech forests across North America and beyond. A well-deserved recognition of where his work is heading.
+
+### 07-01-2026
+
+A great session at ATBC 2026 in Xishuangbanna, China (June 28–July 3): [Beyond Trees](https://beyondtrees.github.io) (S-18), led by [Aiyu](/people/) and co-organized by Hannes De Deurwaerder and Mingzhen. Forests are more than trees: lianas, palms, bamboos, bananas, climbers, and epiphytes that climb, sprawl, twine, and hang. Thank you to our amazing speakers. A special collection is on the way. Next: what these forms can do for cities. Grow the perspective with us at [beyondtrees.github.io](https://beyondtrees.github.io).
+
 ### 05-27-2026
 
 A new paper from [Chenghao Wang](https://chenghaow.github.io/)'s [SURF Lab](https://chenghaow.github.io/) at the University of Oklahoma, led by Liam Thompson, in *Environmental Research Letters*: "[Contrasting patterns in urban energy and emission scaling](https://doi.org/10.1088/1748-9326/ae71ed)." A meta-analysis of 362 scaling exponents reveals an intriguing mismatch: urban energy consumption tends to scale superlinearly with population, but most pollutant emissions scale sublinearly. Why the opposite directions? Cities consume energy within their boundaries, but much of it — especially electricity — is produced elsewhere. The emissions get displaced to power plants and industrial sites outside city limits. Are cities more like organisms, ecosystems, or a mixture of both? If we think of cities as super-organisms, where do we draw the boundary of their metabolism?
