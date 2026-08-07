@@ -1,13 +1,14 @@
 <header class="hero">
   <div class="hero-slides">
+    {{/* "credit" is shown over the slide while it is active; blank = Mingzhen's own photo. */}}
     {{ $base := slice
-      (dict "src" "images/gallery/photo-13.jpg"   "pos" "center 50%")
-      (dict "src" "images/gallery/photo-08.jpg"   "pos" "center 55%")
-      (dict "src" "images/gallery/photo-07.jpg"   "pos" "center 60%")
-      (dict "src" "images/gallery/photo-14.jpg"   "pos" "center 90%")
-      (dict "src" "images/gallery/photo-17.jpeg"  "pos" "center 75%")
-      (dict "src" "images/gallery/photo-18.jpeg"  "pos" "center 55%")
-      (dict "src" "images/gallery/photo-19.jpeg"  "pos" "center 80%")
+      (dict "src" "images/gallery/photo-13.jpg"   "pos" "center 50%" "credit" "")
+      (dict "src" "images/gallery/photo-08.jpg"   "pos" "center 55%" "credit" "")
+      (dict "src" "images/gallery/photo-07.jpg"   "pos" "center 60%" "credit" "")
+      (dict "src" "images/gallery/photo-14.jpg"   "pos" "center 90%" "credit" "")
+      (dict "src" "images/gallery/photo-17.jpeg"  "pos" "center 75%" "credit" "Jingkang Liao")
+      (dict "src" "images/gallery/photo-18.jpeg"  "pos" "center 55%" "credit" "Jingkang Liao")
+      (dict "src" "images/gallery/photo-19.jpeg"  "pos" "center 80%" "credit" "Jingkang Liao")
     }}
     {{ $offsets := dict
       "/"              6
@@ -24,10 +25,11 @@
       {{ $slides = append (first $offset $base) (after $offset $base) }}
     {{ end }}
     {{ range $i, $s := $slides }}
-      <img class="hero-img{{ if eq $i 0 }} active{{ end }}" src="{{ $s.src | relURL }}" style="object-position: {{ $s.pos }}" alt="">
+      <img class="hero-img{{ if eq $i 0 }} active{{ end }}" src="{{ $s.src | relURL }}" style="object-position: {{ $s.pos }}" alt="" data-credit="{{ $s.credit }}">
     {{ end }}
   </div>
   <div class="hero-overlay"></div>
+  <div class="hero-credit" hidden></div>
   <div class="hero-bar">
     <a class="wordmark" href="{{ "/" | relURL }}">
       <span>{{ .Site.Params.wordmarkLine1 }}</span>
@@ -44,13 +46,23 @@
 <script>
 (function(){
   var slides = document.querySelectorAll('.hero-slides .hero-img');
-  if (slides.length < 2) return;
+  if (!slides.length) return;
+  var creditEl = document.querySelector('.hero-credit');
   var i = 0;
   var timer;
+  function showCredit(){
+    if (!creditEl) return;
+    var name = slides[i].dataset.credit;
+    creditEl.textContent = name ? 'Photo: ' + name : '';
+    creditEl.hidden = !name;
+  }
+  showCredit();
+  if (slides.length < 2) return;
   function advance(){
     slides[i].classList.remove('active');
     i = (i + 1) % slides.length;
     slides[i].classList.add('active');
+    showCredit();
   }
   function schedule(){
     clearInterval(timer);
