@@ -67,6 +67,8 @@ Aiyu earned her undergraduate degree from Colorado College in Integrated Environ
 
 Steve is a forest biogeochemist who is interested in exploring how global change influences the key nutrient cycles which dictate ecosystem function and carbon storage. His research is focused on the impacts of urbanization, forest fragmentation, and changing seasonality on the nitrogen cycle in temperate deciduous forests. His work uses field observations and experimentation carried out over varied temporal and spatial scales to reveal how climate and land use change interact with carbon and nitrogen dynamics.
 
+In 2026 Steve won the [NYU Trailblazer Postdoc Award](https://www.nyu.edu/research/resources-and-support-offices/postdoctoral-affairs/current-postdocs/nyu-postdoc-research-grants.html), a two-year fellowship from NYU's Office of Postdoctoral Affairs supporting his work across forest biogeochemistry, the forest–urban boundary, and the science of nature management. He also leads the international Beech Leaf Disease (BLD) network, coordinating researchers tracking this emerging threat to beech forests across North America and beyond.
+
 Steve joined the lab as a Postdoctoral Associate in November 2024. He earned his bachelor's degree in Environmental Analysis and Policy from Boston University in 2016, and gained further experience in field ecology with the National Park Service and US Forest Service throughout the western US until 2019. He got his PhD degree (2024) in Biology from Boston University working with Pamela Templer.
 
 </div>

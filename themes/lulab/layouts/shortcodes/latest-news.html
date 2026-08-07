@@ -1,0 +1,19 @@
+{{- /* Renders the top entry of content/news.md so the home page never drifts
+       from the news page. Entries are the `### <date>` blocks; the first
+       prose paragraph is used, skipping images and link lists. */ -}}
+{{- $news := site.GetPage "/news" -}}
+{{- with $news -}}
+  {{- $blocks := split .RawContent "\n### " -}}
+  {{- if gt (len $blocks) 1 -}}
+    {{- $lines := split (index $blocks 1) "\n" -}}
+    {{- $heading := trim (index $lines 0) " \r" -}}
+    {{- $para := "" -}}
+    {{- range split (delimit (after 1 $lines) "\n") "\n\n" -}}
+      {{- $chunk := trim . " \r\n" -}}
+      {{- if and (eq $para "") $chunk (not (hasPrefix $chunk "{{<")) (not (hasPrefix $chunk "-")) (not (hasPrefix $chunk "!")) -}}
+        {{- $para = $chunk -}}
+      {{- end -}}
+    {{- end -}}
+    <p><strong>{{ $heading }}</strong> — {{ $.Page.RenderString (dict "display" "inline") $para }}</p>
+  {{- end -}}
+{{- end -}}

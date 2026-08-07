@@ -29,7 +29,7 @@ We welcome inquiries even when no positions are listed. We are motivated by exci
 
 ## Most recent news
 
-**05-27-2026** — A new paper from [Chenghao Wang](https://chenghaow.github.io/)'s SURF Lab at the University of Oklahoma, led by Liam Thompson, in *Environmental Research Letters*: "[Contrasting patterns in urban energy and emission scaling](https://doi.org/10.1088/1748-9326/ae71ed)." A meta-analysis of 362 scaling exponents reveals an intriguing mismatch: urban energy consumption tends to scale superlinearly with population, but most pollutant emissions scale sublinearly. Cities consume energy within their boundaries, but much of it — especially electricity — is produced elsewhere. Are cities more like organisms, ecosystems, or a mixture of both? If we think of cities as super-organisms, where do we draw the boundary of their metabolism?
+{{< latest-news >}}
 
 [**For more news →**](/news/)
 
