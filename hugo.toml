@@ -35,6 +35,12 @@ theme = "lulab"
   name = "RESOURCES"
   url = "/resources/"
   weight = 60
+[[menu.main]]
+  name = "hmm... 🤔"
+  url = "/hmm/"
+  weight = 70
+  [menu.main.params]
+    class = "nav-lower"
 
 [markup.goldmark.renderer]
   unsafe = true

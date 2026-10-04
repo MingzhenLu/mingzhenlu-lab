@@ -95,6 +95,8 @@ img { max-width: 100%; height: auto; display: block; }
   transition: border-color 0.15s ease;
 }
 .nav-link:hover { border-bottom-color: rgba(255,255,255,0.7); }
+/* the one lowercase item: "hmm... 🤔" (em units so it scales with the responsive .nav font-size) */
+.nav-link.nav-lower { text-transform: none; letter-spacing: 0.06em; font-size: 1.2em; }
 .nav-pill {
   color: #ffffff;
   border: 1px solid rgba(255,255,255,0.95);
@@ -122,6 +124,7 @@ img { max-width: 100%; height: auto; display: block; }
   color: #1a1a1a;
   margin: 0 0 36px;
 }
+.page-title.lower { text-transform: none; }
 
 /* ---------- Prose ---------- */
 .prose p {
