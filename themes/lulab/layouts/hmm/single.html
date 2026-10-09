@@ -1,7 +1,7 @@
 {{ define "main" }}
 <article class="page-body">
   <div class="page-inner">
-    {{ with .Params.series }}<p class="hmm-series">{{ . }}</p>{{ end }}
+    {{ with .Params.series }}<p class="hmm-series">{{ . }} {{ $.Params.episode }}</p>{{ end }}
     <h1 class="page-title lower">{{ .Title }}</h1>
     <div class="prose">
       {{ .Content }}

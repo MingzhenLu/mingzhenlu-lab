@@ -5,12 +5,21 @@
     <div class="prose">
       {{ .Content }}
     </div>
-    {{ range .Pages }}
-    <section class="hmm-item">
-      {{ with .Params.series }}<p class="hmm-series">{{ . }}</p>{{ end }}
-      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-      <div class="prose">
-        {{ .Content }}
+    {{/* one block per `series` (alphabetical), entries inside ordered by `weight`; an entry without `series` is not listed */}}
+    {{ range (.Pages.ByWeight).GroupByParam "series" }}
+    <section class="hmm-block">
+      <h2 class="hmm-group">{{ .Key }}</h2>
+      <div class="hmm-grid">
+        {{ range .Pages }}
+        <a class="hmm-card" href="{{ .RelPermalink }}">
+          <span class="hmm-thumb">
+            <img src="{{ (.Params.thumb | default .Params.poster) | relURL }}" alt="" loading="lazy">
+            {{ with .Params.duration }}<span class="hmm-dur">{{ . }}</span>{{ end }}
+          </span>
+          {{ with .Params.episode }}<span class="hmm-series">{{ . }}</span>{{ end }}
+          <span class="hmm-title">{{ .Title }}</span>
+        </a>
+        {{ end }}
       </div>
     </section>
     {{ end }}

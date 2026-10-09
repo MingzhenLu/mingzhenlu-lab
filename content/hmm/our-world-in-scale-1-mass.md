@@ -1,14 +1,19 @@
 ---
 title: "Is Mount Everest Heavier than Everything Human Built Combined?"
 date: 2026-10-09
-series: "Our World in Scale #1 · Mass"
+weight: 1
+series: "Our World in Scale"
+episode: "#1 · Mass"
 description: "Our World in Scale #1: Mass. Orders of magnitude, from you to a mountain."
 image: "video/WorldInScale1_Mass_HowHeavyEverest_16x9-EN_20261006_og.jpg"
+poster: "video/WorldInScale1_Mass_HowHeavyEverest_16x9-EN_20261006_poster.jpg"
+thumb: "video/WorldInScale1_Mass_HowHeavyEverest_16x9-EN_20261006_thumb.jpg"
+duration: "4:55"
 hero: "images/gallery/photo-02.jpg"
 heroPos: "center 14%"
 ---
 
-{{< video src="/video/WorldInScale1_Mass_HowHeavyEverest_16x9-EN_20261006.mp4" poster="/video/WorldInScale1_Mass_HowHeavyEverest_16x9-EN_20261006_poster.jpg" >}}
+{{< video src="/video/WorldInScale1_Mass_HowHeavyEverest_16x9-EN_20261006.mp4" >}}
 
 Part of *Our World in Scale* #1: Mass. Orders of magnitude, from you to a mountain.
 

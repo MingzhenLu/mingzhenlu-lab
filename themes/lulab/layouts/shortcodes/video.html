@@ -1,6 +1,6 @@
-{{- /* {{< video src="/video/x.mp4" poster="/video/x_poster.jpg" >}}: inline player, loads only metadata until played */ -}}
+{{- /* {{< video src="/video/x.mp4" >}}: inline player, loads only metadata until played. poster= defaults to the page's `poster` front matter */ -}}
 {{- $src := .Get "src" -}}
-{{- $poster := .Get "poster" -}}
+{{- $poster := .Get "poster" | default .Page.Params.poster -}}
 <div class="video-wrap">
   <video controls preload="metadata" playsinline{{ with $poster }} poster="{{ . | relURL }}"{{ end }}>
     <source src="{{ $src | relURL }}" type="video/mp4">
