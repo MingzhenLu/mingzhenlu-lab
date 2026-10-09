@@ -31,7 +31,8 @@
       {{ $slides = append $slides (slice $first) }}
     {{ end }}
     {{ range $i, $s := $slides }}
-      <img class="hero-img{{ if eq $i 0 }} active{{ end }}" src="{{ $s.src | relURL }}" style="object-position: {{ $s.pos }}" alt="" data-credit="{{ $s.credit }}">
+      {{/* only slide 1 loads with the page; the others get src from data-src shortly before they show (script below) */}}
+      <img class="hero-img{{ if eq $i 0 }} active{{ end }}" {{ if eq $i 0 }}src{{ else }}data-src{{ end }}="{{ $s.src | relURL }}" style="object-position: {{ $s.pos }}" alt="" data-credit="{{ $s.credit }}">
     {{ end }}
   </div>
   <div class="hero-overlay"></div>
@@ -64,11 +65,19 @@
   }
   showCredit();
   if (slides.length < 2) return;
+  function ensure(n){
+    var im = slides[n];
+    if (im && !im.getAttribute('src') && im.dataset.src) { im.src = im.dataset.src; }
+  }
+  // a quick visit costs one photo: slide 2 starts loading 3 s in, and each change preloads the next
+  setTimeout(function(){ ensure(1); }, 3000);
   function advance(){
     slides[i].classList.remove('active');
     i = (i + 1) % slides.length;
+    ensure(i);
     slides[i].classList.add('active');
     showCredit();
+    ensure((i + 1) % slides.length);
   }
   function schedule(){
     clearInterval(timer);
