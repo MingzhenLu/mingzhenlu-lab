@@ -410,8 +410,20 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .hmm-card:hover .hmm-title { color: #1f7a8c; }
 /* entry page: moderate player (native fullscreen button is in the controls) */
-.video-wrap { max-width: 760px; margin: 0 0 22px; }
-.video-wrap video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #000; }
+.video-wrap { max-width: 760px; margin: 0 0 22px; container-type: inline-size; }
+/* captions are burned into the bottom of the picture; the native control bar would sit on them.
+   A 56px black strip under the 16:9 picture takes the bar instead (no cq-unit support = old 16:9 fallback) */
+.video-wrap video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: calc(100cqw * 9 / 16 + 56px);
+  object-fit: contain;
+  object-position: top;
+  background: #000;
+}
+.video-wrap video:fullscreen { height: 100%; object-position: center; }
+.video-wrap video:-webkit-full-screen { height: 100%; object-position: center; }
 .hmm-back {
   font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 13px;
