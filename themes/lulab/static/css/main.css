@@ -409,21 +409,60 @@ img { max-width: 100%; height: auto; display: block; }
   color: #1a1a1a;
 }
 .hmm-card:hover .hmm-title { color: #1f7a8c; }
-/* entry page: moderate player (native fullscreen button is in the controls) */
-.video-wrap { max-width: 760px; margin: 0 0 22px; container-type: inline-size; }
-/* captions are burned into the bottom of the picture; the native control bar would sit on them.
-   A 56px black strip under the 16:9 picture takes the bar instead (no cq-unit support = old 16:9 fallback) */
-.video-wrap video {
-  display: block;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  height: calc(100cqw * 9 / 16 + 56px);
-  object-fit: contain;
-  object-position: top;
-  background: #000;
+/* entry page: moderate player. Captions are burned into the bottom of the picture, so the
+   controls (js/player.js) live in a bar BELOW it; without JS the native controls stay */
+.vplayer { position: relative; max-width: 760px; margin: 0 0 22px; }
+.vplayer video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #000; cursor: pointer; }
+.vbig {
+  display: none;
+  position: absolute; left: 50%; top: 0;
+  width: 56px; height: 56px; margin: calc(760px * 9 / 32 - 28px) 0 0 -28px;
+  border: 0; border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
-.video-wrap video:fullscreen { height: 100%; object-position: center; }
-.video-wrap video:-webkit-full-screen { height: 100%; object-position: center; }
+.vbig::after {
+  content: "";
+  position: absolute; left: 50%; top: 50%;
+  margin: -10px 0 0 -6px;
+  border-style: solid; border-width: 10px 0 10px 18px;
+  border-color: transparent transparent transparent #fff;
+}
+.vplayer.is-ready:not(.is-playing) .vbig { display: block; }
+.vbar {
+  display: none;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 2px 0;
+  font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: #666;
+}
+.vplayer.is-ready .vbar { display: flex; }
+.vbtn { background: none; border: 0; padding: 4px; cursor: pointer; color: #1a1a1a; line-height: 0; }
+.vbtn:hover { color: #1f7a8c; }
+.vbtn .ic { width: 18px; height: 18px; fill: currentColor; }
+.vplay .ic-pause, .vplayer.is-playing .vplay .ic-play { display: none; }
+.vplayer.is-playing .vplay .ic-pause { display: block; }
+.vmute .ic-muted, .vplayer.is-muted .vmute .ic-vol { display: none; }
+.vplayer.is-muted .vmute .ic-muted { display: block; }
+.vtime { min-width: 82px; font-variant-numeric: tabular-nums; }
+.vseek {
+  flex: 1; min-width: 0; height: 3px; margin: 0;
+  -webkit-appearance: none; appearance: none;
+  border-radius: 2px; outline: none; cursor: pointer;
+  background: linear-gradient(to right, #1f7a8c var(--p, 0%), #ddd var(--p, 0%));
+}
+.vseek::-webkit-slider-thumb { -webkit-appearance: none; width: 12px; height: 12px; border: 0; border-radius: 50%; background: #1f7a8c; }
+.vseek::-moz-range-thumb { width: 12px; height: 12px; border: 0; border-radius: 50%; background: #1f7a8c; }
+.vplayer:fullscreen { display: flex; flex-direction: column; justify-content: center; max-width: none; margin: 0; background: #000; }
+.vplayer:fullscreen video { aspect-ratio: auto; height: calc(100vh - 52px); object-fit: contain; }
+.vplayer:fullscreen .vbar { padding: 12px 16px; color: #ccc; }
+.vplayer:fullscreen .vbtn { color: #fff; }
+.vplayer:fullscreen .vbig { display: none !important; }
+.vplayer:-webkit-full-screen { display: flex; flex-direction: column; justify-content: center; max-width: none; margin: 0; background: #000; }
+.vplayer:-webkit-full-screen video { aspect-ratio: auto; height: calc(100vh - 52px); object-fit: contain; }
 .hmm-back {
   font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 13px;
