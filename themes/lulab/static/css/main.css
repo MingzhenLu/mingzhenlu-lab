@@ -96,7 +96,7 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .nav-link:hover { border-bottom-color: rgba(255,255,255,0.7); }
 /* the one lowercase item: "hmm... 🤔" (em units so it scales with the responsive .nav font-size) */
-.nav-link.nav-lower { text-transform: none; letter-spacing: 0.06em; font-size: 1.2em; }
+.nav-link.nav-lower { text-transform: none; letter-spacing: 0.06em; font-size: 1.2em; white-space: nowrap; }
 .nav-pill {
   color: #ffffff;
   border: 1px solid rgba(255,255,255,0.95);
@@ -331,6 +331,33 @@ img { max-width: 100%; height: auto; display: block; }
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #888;
+}
+
+/* ---------- hmm section ---------- */
+.hmm-item { margin: 48px 0 72px; }
+.hmm-series {
+  font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #888;
+  margin: 0 0 8px;
+}
+.hmm-item h2 {
+  font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.3;
+  margin: 0 0 18px;
+}
+.hmm-item h2 a { color: #1a1a1a; }
+.video-wrap { margin: 0 0 22px; }
+.video-wrap video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #000; }
+.hmm-back {
+  font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  margin-top: 40px;
 }
 
 /* ---------- Footer ---------- */

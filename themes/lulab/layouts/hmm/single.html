@@ -1,0 +1,12 @@
+{{ define "main" }}
+<article class="page-body">
+  <div class="page-inner">
+    {{ with .Params.series }}<p class="hmm-series">{{ . }}</p>{{ end }}
+    <h1 class="page-title lower">{{ .Title }}</h1>
+    <div class="prose">
+      {{ .Content }}
+    </div>
+    <p class="hmm-back"><a href="{{ "hmm/" | relURL }}">&larr; hmm... 🤔</a></p>
+  </div>
+</article>
+{{ end }}

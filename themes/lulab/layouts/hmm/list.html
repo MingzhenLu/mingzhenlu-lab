@@ -1,0 +1,19 @@
+{{ define "main" }}
+<article class="page-body">
+  <div class="page-inner">
+    <h1 class="page-title lower">{{ .Title }}</h1>
+    <div class="prose">
+      {{ .Content }}
+    </div>
+    {{ range .Pages }}
+    <section class="hmm-item">
+      {{ with .Params.series }}<p class="hmm-series">{{ . }}</p>{{ end }}
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      <div class="prose">
+        {{ .Content }}
+      </div>
+    </section>
+    {{ end }}
+  </div>
+</article>
+{{ end }}
