@@ -9,6 +9,14 @@
     {{ range (.Pages.ByWeight).GroupByParam "series" }}
     <section class="hmm-block">
       <h2 class="hmm-group">{{ .Key }}</h2>
+      {{/* optional intro for the series: data/hmm_series.yaml, keyed by series name */}}
+      {{ with index hugo.Data.hmm_series .Key }}
+      <div class="hmm-intro">
+        {{ with .about }}<p>{{ . | markdownify }}</p>{{ end }}
+        {{ with .credit }}<p class="hmm-credit">{{ . | markdownify }}</p>{{ end }}
+        {{ with .made }}<p class="hmm-credit">{{ . | markdownify }}</p>{{ end }}
+      </div>
+      {{ end }}
       <div class="hmm-grid">
         {{ range .Pages }}
         <a class="hmm-card" href="{{ .RelPermalink }}">
@@ -17,6 +25,7 @@
             {{ with .Params.duration }}<span class="hmm-dur">{{ . }}</span>{{ end }}
           </span>
           {{ with .Params.episode }}<span class="hmm-series">{{ . }}</span>{{ end }}
+          {{ with .Params.scope }}<span class="hmm-scope">{{ . }}</span>{{ end }}
           <span class="hmm-title">{{ .Title }}</span>
         </a>
         {{ end }}

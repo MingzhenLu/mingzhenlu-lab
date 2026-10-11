@@ -3,8 +3,9 @@ title: "Is Mount Everest Heavier than Everything Human Built Combined?"
 date: 2026-10-09
 weight: 1
 series: "Our World in Scale"
-episode: "#1 · Mass"
-description: "Our World in Scale #1: Mass. Orders of magnitude, from you to a mountain."
+episode: "#1 · Mass Scale"
+scope: "Above and below human scale"
+description: "Our World in Scale #1: Mass Scale. Above and below human scale, from a teardrop to a mountain."
 image: "video/WorldInScale1_Mass_HowHeavyEverest_16x9-EN_20261006_og.jpg"
 poster: "video/WorldInScale1_Mass_HowHeavyEverest_16x9-EN_20261006_poster.jpg"
 thumb: "video/WorldInScale1_Mass_HowHeavyEverest_16x9-EN_20261006_thumb.jpg"
@@ -15,6 +16,6 @@ heroPos: "center 14%"
 
 {{< video src="/video/WorldInScale1_Mass_HowHeavyEverest_16x9-EN_20261006.mp4" >}}
 
-Part of *Our World in Scale* #1: Mass. Orders of magnitude, from you to a mountain.
+Part of *Our World in Scale* #1: Mass Scale. Above and below human scale, from a teardrop to a mountain.
 
 [Read the blog post](https://sliceofidea.substack.com/p/beyond-five-fingers-a-survival-guide). License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Credits and sources are on the last card.

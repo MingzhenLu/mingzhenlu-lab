@@ -1,0 +1,27 @@
+# Intro text shown under a series heading on /hmm/. Key = the `series` front matter of its entries.
+# about = motivation, credit = inspirations (shown smaller). Both are markdown, both optional.
+"Our World in Scale":
+  about: >-
+    Learning to grapple with scale is a skill for students of all stages.
+    Establish a ruler, then get comfortable with Fermi analysis (order-of-magnitude analysis).
+    It is critical for critical thinking: with these tools, one can spot salient errors in publications or in the news.
+    It is also a great tool for disseminating science.
+    Science is laden with numbers, and numbers need real-life, easy-to-digest examples to make sense.
+    So: brain-shattering visuals instead of sleep-inducing dry numbers.
+  credit: >-
+    Who inspired this series: my scientific idol/one of his kind/amphibious physicist/humble giant
+    [Enrico Fermi](https://en.wikipedia.org/wiki/Enrico_Fermi) through his
+    [biography](https://www.hachettebookgroup.com/titles/david-n-schwartz/the-last-man-who-knew-everything/9780465072927/)
+    and memos, [Geoffrey West](https://en.wikipedia.org/wiki/Geoffrey_West) through his weird but fun calculations
+    and his book on *Scale* (it is through Geoffrey's
+    [interview of Murray Gell-Mann](https://www.webofstories.com/play/murray.gell-mann/37)
+    that I learned Fermi kept a little notebook with all sorts of fun facts and equations he carefully curated;
+    that fact was not included in his biography), Jefferson Market Library children section,
+    my dear colleague [Ken Huang](https://knhuang.weebly.com/) who introduced me to
+    [Chip Heath's book *Making Numbers Count*](https://www.simonandschuster.com/books/Making-Numbers-Count/Chip-Heath/9781982165444),
+    and most importantly my son who introduced non-fiction picture books into my life.
+  made: >-
+    The content is based on [my own blog posts](https://sliceofidea.substack.com/p/collection-our-world-in-scale). The visualization is only possible because of Claude Opus 5.5,
+    which wrote the code for the animation, with its music and sound effects.
+    Recording every narration myself in my Shandong-accented English would be a hassle,
+    so the narration is Microsoft's text-to-speech voice.

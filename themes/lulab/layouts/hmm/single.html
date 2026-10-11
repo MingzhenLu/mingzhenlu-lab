@@ -6,6 +6,10 @@
     <div class="prose">
       {{ .Content }}
     </div>
+    {{/* how the video was made: data/hmm_series.yaml `made`, same text as on /hmm/ */}}
+    {{ with index hugo.Data.hmm_series .Params.series }}{{ with .made }}
+    <div class="hmm-intro hmm-made"><p class="hmm-credit">{{ . | markdownify }}</p></div>
+    {{ end }}{{ end }}
     <p class="hmm-back"><a href="{{ "hmm/" | relURL }}">&larr; hmm... 🤔</a></p>
   </div>
 </article>
