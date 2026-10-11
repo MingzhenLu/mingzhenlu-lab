@@ -1,6 +1,8 @@
 ---
 title: "Gallery"
 url: "/gallery/"
+lazy: true
+thumbs: true
 ---
 
 A visual record of fieldwork, lab moments, and lab life across the Cape Floristic Kingdom, Tibetan Plateau, and beyond.

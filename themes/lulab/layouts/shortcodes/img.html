@@ -1,8 +1,16 @@
-{{- $src := .Get 0 -}}
+{{- $raw := .Get 0 -}}
+{{- $src := $raw -}}
 {{- $alt := .Get 1 | default "" -}}
 {{- if hasPrefix $src "/" -}}
   {{- $src = strings.TrimPrefix "/" $src | relURL -}}
 {{- else -}}
   {{- $src = $src | relURL -}}
 {{- end -}}
-<img src="{{ $src }}" alt="{{ $alt }}">
+{{/* `lazy: true` in a page's front matter defers its images until they are near the screen; only for pages whose CSS reserves each image's height (gallery grid), else they collapse and shift the layout */}}
+{{/* `thumbs: true` in front matter: gallery photos show static/images/gallery/thumbs/<name>.jpg (scripts/gallery_thumbs.sh) and keep the full photo in data-full for the lightbox; no thumbnail on disk = the original is used */}}
+{{- $thumb := "" -}}
+{{- if and .Page.Params.thumbs (hasPrefix $raw "/images/gallery/") -}}
+  {{- $t := printf "/images/gallery/thumbs/%s.jpg" (strings.TrimSuffix (path.Ext $raw) (path.Base $raw)) -}}
+  {{- if fileExists (printf "static%s" $t) }}{{ $thumb = $t | relURL }}{{ end -}}
+{{- end -}}
+<img src="{{ or $thumb $src }}"{{ if $thumb }} data-full="{{ $src }}"{{ end }} alt="{{ $alt }}"{{ if .Page.Params.lazy }} loading="lazy" decoding="async"{{ end }}>

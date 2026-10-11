@@ -24,7 +24,7 @@
 
   function show(i) {
     idx = (i + imgs.length) % imgs.length;
-    lbImg.src = imgs[idx].src;
+    lbImg.src = imgs[idx].dataset.full || imgs[idx].src;
     const cap = imgs[idx].alt || '';
     lbCaption.textContent = cap;
     lbCaption.style.display = cap ? 'block' : 'none';
