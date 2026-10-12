@@ -1,5 +1,11 @@
 # Intro text shown under a series heading on /hmm/. Key = the `series` front matter of its entries.
 # about = motivation, credit = inspirations (shown smaller). Both are markdown, both optional.
+"Picture Paper":
+  about: >-
+    Inspired by picture books, this is a bit of experimentation.
+  made: >-
+    The content is based on [our publications](/publications/).
+    Visualization is made with Claude Opus 5.5, voice from Microsoft text-to-speech.
 "Our World in Scale":
   about: >-
     Learning to grapple with scale is a foundational skill for students of all stages.
