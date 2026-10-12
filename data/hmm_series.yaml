@@ -2,12 +2,13 @@
 # about = motivation, credit = inspirations (shown smaller). Both are markdown, both optional.
 "Our World in Scale":
   about: >-
-    Learning to grapple with scale is a skill for students of all stages.
-    Establish a ruler, then get comfortable with Fermi analysis (order-of-magnitude analysis).
-    It is critical for critical thinking: with these tools, one can spot salient errors in publications or in the news.
-    It is also a great tool for disseminating science.
-    Science is laden with numbers, and numbers need real-life, easy-to-digest examples to make sense.
-    So: brain-shattering visuals instead of sleep-inducing dry numbers.
+    Learning to grapple with scale is a foundational skill for students of all stages.
+    Here is a carefully curated toolbox that can cut brain-damaging numbers like a hot knife through butter:
+    (1) a scale ruler of the world, which contains everyday image anchors for the mind to work with;
+    (2) Fermi analysis, to derive rough estimates by order of magnitude;
+    and (3) scaling theory, to understand the nonlinear relationships among all things.
+    With these tools, one can make sense of numbers big and small, spot salient errors in publications or in the news,
+    and perhaps most importantly, address the "so what/who cares" question.
   credit: >-
     Who inspired this series: my scientific idol/one of his kind/amphibious physicist/humble giant
     [Enrico Fermi](https://en.wikipedia.org/wiki/Enrico_Fermi) through his
@@ -21,7 +22,5 @@
     [Chip Heath's book *Making Numbers Count*](https://www.simonandschuster.com/books/Making-Numbers-Count/Chip-Heath/9781982165444),
     and most importantly my son who introduced non-fiction picture books into my life.
   made: >-
-    The content is based on [my own blog posts](https://sliceofidea.substack.com/p/collection-our-world-in-scale). The visualization is only possible because of Claude Opus 5.5,
-    which wrote the code for the animation, with its music and sound effects.
-    Recording every narration myself in my Shandong-accented English would be a hassle,
-    so the narration is Microsoft's text-to-speech voice.
+    The content is based on [my own blog posts](https://sliceofidea.substack.com/p/collection-our-world-in-scale).
+    Visualization is made with Claude Opus 5.5, voice from Microsoft text-to-speech.
