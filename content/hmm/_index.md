@@ -4,5 +4,3 @@ lower: true
 hero: "images/gallery/photo-02.jpg"
 heroPos: "center 14%"
 ---
-
-**Hmm... Aha!**

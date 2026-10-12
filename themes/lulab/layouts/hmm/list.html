@@ -1,10 +1,8 @@
 {{ define "main" }}
 <article class="page-body">
   <div class="page-inner">
-    <h1 class="page-title lower">{{ .Title }}</h1>
-    <div class="prose">
-      {{ .Content }}
-    </div>
+    {{/* no page heading or tagline here: the nav item "hmm... 🤔" already names the page (Mingzhen 2026-10-12); the front matter title stays for the browser tab and share cards */}}
+    {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
     {{/* one block per `series` (alphabetical), entries inside ordered by `weight`; an entry without `series` is not listed */}}
     {{ range (.Pages.ByWeight).GroupByParam "series" }}
     <section class="hmm-block">
