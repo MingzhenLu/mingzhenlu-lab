@@ -8,6 +8,18 @@ url: "/news/"
 
 # News
 
+### 10-26-2026
+
+Our new paper is out in *Nature Cities*: "[Nested economies of scale in global city mass](https://doi.org/10.1038/s44284-026-00532-x)," with [Kangning Huang](https://shanghai.nyu.edu/academics/faculty/directory/kangning-ken-huang) at NYU Shanghai. Across more than 3,000 cities, built mass grows more slowly than population. Double a city's population and it carries only 87% more material (β=0.90). Look inside a single city and the saving is steeper: doubling a neighborhood's population adds just 68% more material (δ=0.75). Bigger and denser cities are built lighter per person.
+
+The savings come from sharing. A car occupies about 35 m² of road and carries 1.5 people, roughly 23 m² of pavement each. A bus occupies 80 m² and carries 30, about 2.6 m² each, close to a ninefold reduction. Shared cafes and laundromats do the same work for living space.
+
+We put the global urban built environment at 327 billion tons. Most material-demand projections still scale per capita and linearly, which overestimates what large cities need as they grow. How a city is organized inside matters as much as how big it gets.
+
+- [Nested economies of scale in global city mass (Nature Cities)](https://doi.org/10.1038/s44284-026-00532-x)
+- [Cities' Infrastructure Grows More Slowly Than Their Populations Do (NYU News)](https://www.nyu.edu/about/news-publications/news/2026/october/cities--infrastructure-grows-more-slowly-than-their-populations-.html)
+- [Explore the interactive city-mass map](https://city-mass.nested-complexity.net)
+
 ### 07-10-2026
 
 Congratulations to [Steve (Stephen Caron)](/people/) for winning the [NYU Trailblazer Postdoc Award](https://www.nyu.edu/research/resources-and-support-offices/postdoctoral-affairs/current-postdocs/nyu-postdoc-research-grants.html), a two-year fellowship from NYU's Office of Postdoctoral Affairs. The award supports Steve's push across three frontiers: forest biogeochemistry, the forest–urban boundary, and the science of nature management. Steve also now leads the international Beech Leaf Disease (BLD) network, coordinating researchers who track this emerging threat to beech forests across North America and beyond. A well-deserved recognition of where his work is heading.

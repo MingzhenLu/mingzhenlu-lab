@@ -48,11 +48,11 @@ Drawing from biogeochemistry, theoretical ecology, and complexity science, our w
 
 {{< img "/images/research/urban-systems.jpg" "Urban systems collage" >}}
 
-> **Companion site:** [city-mass.nested-complexity.net](https://city-mass.nested-complexity.net) — interactive exploration of nested scaling in city mass, accompanying Huang & Lu (2025).
+> **Companion site:** [city-mass.nested-complexity.net](https://city-mass.nested-complexity.net) — interactive exploration of nested scaling in city mass, accompanying Huang & Lu (2026).
 
 **Relevant publications:**
 
-- Huang, K. & **Lu, M.\*** (2025). [Nested economies of scale in city mass](https://arxiv.org/abs/2507.03960). *arXiv*.
+- Huang, K. & **Lu, M.\*** (2026). [Nested economies of scale in global city mass](https://doi.org/10.1038/s44284-026-00532-x). *Nature Cities*.
 - Hsu, Y.H., Beery, S., Kempes, C.P., **Lu, M.**, Saavedra, S. (2025). [The impact of COVID-19 on building energetics](https://arxiv.org/abs/2504.19921). *arXiv preprint arXiv:2504.19921*.
 - Ma, S., **Lu, M.**, Yang, G., Zhi, Y., Ouyang, Z., Huang, N., Zhou, C.\* (2024). "[Carbon-negative transition by utilizing overlooked carbon stock of landfills](https://www.the-innovation.org/article/doi/10.59717/j.xinn-geo.2024.100109)." *The Innovation Geoscience*.
 - **Lu, M.\***, Zhou, C., Wang, C., Jackson, R.B., Kempes, C.P.\* (2024). "[Worldwide scaling law of waste production in urban systems](https://www.nature.com/articles/s44284-023-00021-5)." *Nature Cities*, 1, 126–135.

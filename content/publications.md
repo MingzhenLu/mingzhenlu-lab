@@ -7,6 +7,11 @@ url: "/publications/"
 
 ## 2026
 
+- Huang, K.\* & **Lu, M.\*** (2026). "[Nested economies of scale in global city mass](https://doi.org/10.1038/s44284-026-00532-x)." <u>*Nature Cities*</u>.
+  <br><span class="pub-links"><a href="javascript:void(0)" class="pub-toggle" data-key="huang2026" data-type="bib">[BibTeX]</a> <a href="javascript:void(0)" class="pub-toggle" data-key="huang2026" data-type="abs">[Abstract]</a> <a href="/papers/Huang%26Lu2025_NestedScale.pdf" class="pub-pdf" target="_blank">[PDF]</a></span>
+  <br><span class="pub-press">Press: "[Cities' Infrastructure Grows More Slowly Than Their Populations Do](https://www.nyu.edu/about/news-publications/news/2026/october/cities--infrastructure-grows-more-slowly-than-their-populations-.html)" — NYU News</span>
+  <br><span class="pub-press">Companion site: [city-mass.nested-complexity.net](https://city-mass.nested-complexity.net)</span>
+
 - Thompson, L., Wang, C., **Lu, M.** (2026). "[Contrasting patterns in urban energy and emission scaling](https://doi.org/10.1088/1748-9326/ae71ed)." <u>*Environmental Research Letters*</u>.
   <br><span class="pub-links"><a href="javascript:void(0)" class="pub-toggle" data-key="thompson2026" data-type="bib">[BibTeX]</a> <a href="javascript:void(0)" class="pub-toggle" data-key="thompson2026" data-type="abs">[Abstract]</a> <a href="/papers/Thompson2026_UrbanEnergyEmission.pdf" class="pub-pdf" target="_blank">[PDF]</a></span>
 
@@ -32,10 +37,6 @@ url: "/publications/"
 
 - Vallicrosa, H., Fleischer, K., Delgado-Baquerizo, M., Fernández-Martínez, M., Cerny, J., Tian, D., Kourmouli, A., Mayoral, C., Grados, D., **Lu, M.**, Terrer, C. (2025). "[Nitrogen deposition and climate drive plant nitrogen uptake while soil factors drive nitrogen use efficiency in terrestrial ecosystems](https://doi.org/10.5194/esd-16-1183-2025)." <u>*Earth System Dynamics*</u> 16(4), 1183–1196.
   <br><span class="pub-links"><a href="javascript:void(0)" class="pub-toggle" data-key="vallicrosa2025" data-type="bib">[BibTeX]</a> <a href="javascript:void(0)" class="pub-toggle" data-key="vallicrosa2025" data-type="abs">[Abstract]</a> <a href="/papers/Vallicrosa2025_NitrogenUptake.pdf" class="pub-pdf" target="_blank">[PDF]</a></span>
-
-- Huang, K.\* & **Lu, M.\*** (2025). "[Nested economies of scale in global city mass](https://arxiv.org/abs/2507.03960)." <u>*arXiv preprint arXiv:2507.03960*</u> (in revision at <u>*Nature Cities*</u>).
-  <br><span class="pub-links"><a href="javascript:void(0)" class="pub-toggle" data-key="huang2025" data-type="bib">[BibTeX]</a> <a href="javascript:void(0)" class="pub-toggle" data-key="huang2025" data-type="abs">[Abstract]</a> <a href="/papers/Huang%26Lu2025_NestedScale.pdf" class="pub-pdf" target="_blank">[PDF]</a></span>
-  <br><span class="pub-press">Companion site: [city-mass.nested-complexity.net](https://city-mass.nested-complexity.net)</span>
 
 - Malhotra, A., Moore, J.A.M., Weintraub-Leff, S., Georgiou, K., Berhe, A.A., Billings, S.A., de Graaff, M.-A., Fraterrigo, J.M., Grandy, A.S., Kyker-Snowman, E., **Lu, M.**, Meier, C., Pierson, D., Tumber-Dávila, S.J., Lajtha, K., Wieder, W.R., Jackson, R.B. (2025). "[Fine root and soil carbon stocks are positively related in grasslands but not in forests](https://www.nature.com/articles/s43247-025-02486-9)." <u>*Communications Earth & Environment*</u> 6(1), 497.
   <br><span class="pub-links"><a href="javascript:void(0)" class="pub-toggle" data-key="malhotra2025" data-type="bib">[BibTeX]</a> <a href="javascript:void(0)" class="pub-toggle" data-key="malhotra2025" data-type="abs">[Abstract]</a> <a href="/papers/Malhotra2025_FineRootCarbon.pdf" class="pub-pdf" target="_blank">[PDF]</a></span>
@@ -149,8 +150,8 @@ window.pubData = {
     "bib": "@article{vallicrosa2025nitrogen,\n  author = {Vallicrosa, Helena and Fleischer, Katrin and Delgado-Baquerizo, Manuel and Fern\\'{a}ndez-Mart\\'{\\i}nez, Marcos and {\\v{C}}ern\\'{y}, Jakub and Tian, Di and Kourmouli, Angeliki and Mayoral, Carolina and Grados, Diego and Lu, Mingzhen and Terrer, C\\'{e}sar},\n  title = {Nitrogen deposition and climate drive plant nitrogen uptake while soil factors drive nitrogen use efficiency in terrestrial ecosystems},\n  journal = {Earth System Dynamics},\n  year = {2025},\n  volume = {16},\n  number = {4},\n  pages = {1183--1196},\n  doi = {10.5194/esd-16-1183-2025}\n}",
     "abs": "The role of plants in sequestering carbon is a critical component in mitigating climate change. A key aspect of this role involves plant nitrogen (N) uptake (Nup) and N use efficiency (NUE), as these factors directly influence the capacity of plants to store carbon. However, the additive contribution of N deposition, soil factors (biotic and abiotic), and climate to the plant N cycle remains inadequately understood, introducing significant uncertainties into climate change projections. Here, we used ground-based observations across 159 field experiments to calculate Nup and NUE and identify their main drivers in natural ecosystems. We found that global plant Nup is primarily driven by N deposition, mean temperature, and precipitation, with Nup increasing in warmer and wetter areas. In contrast, NUE is driven by soil biotic and abiotic factors."
   },
-  "huang2025": {
-    "bib": "@article{huang2025nested,\n  author = {Huang, Kangning and Lu, Mingzhen},\n  title = {Nested economies of scale in global city mass},\n  journal = {arXiv preprint},\n  year = {2025},\n  doi = {10.48550/arXiv.2507.03960}\n}",
+  "huang2026": {
+    "bib": "@article{huang2026nested,\n  author = {Huang, Kangning and Lu, Mingzhen},\n  title = {Nested economies of scale in global city mass},\n  journal = {Nature Cities},\n  year = {2026},\n  doi = {10.1038/s44284-026-00532-x}\n}",
     "abs": "A longstanding puzzle in urban science is whether there’s an intrinsic match between human populations and the mass of their built environments. Previous findings have revealed various urban properties scaling nonlinearly with population, yet existing models of city built mass are still dominated by per-capita linear thinking. Our analysis of >3,000 cities globally reveals universal sublinear scaling of city mass with population at both the city (β=0.90) and neighborhood levels (δ=0.75). This means that larger cities and denser neighborhoods achieve economies of scale with less per-capita built mass. Our theoretical framework further shows that city-level scaling emerges naturally from within-city disparities."
   },
   "malhotra2025": {
