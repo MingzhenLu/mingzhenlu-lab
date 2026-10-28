@@ -8,9 +8,11 @@ url: "/publications/"
 ## 2026
 
 - Huang, K.\* & **Lu, M.\*** (2026). "[Nested economies of scale in global city mass](https://doi.org/10.1038/s44284-026-00532-x)." <u>*Nature Cities*</u>.
-  <br><span class="pub-links"><a href="javascript:void(0)" class="pub-toggle" data-key="huang2026" data-type="bib">[BibTeX]</a> <a href="javascript:void(0)" class="pub-toggle" data-key="huang2026" data-type="abs">[Abstract]</a> <a href="/papers/Huang%26Lu2025_NestedScale.pdf" class="pub-pdf" target="_blank">[PDF]</a></span>
+  <br><span class="pub-links"><a href="javascript:void(0)" class="pub-toggle" data-key="huang2026" data-type="bib">[BibTeX]</a> <a href="javascript:void(0)" class="pub-toggle" data-key="huang2026" data-type="abs">[Abstract]</a> <a href="/papers/Huang%26Lu2026_NestedScale.pdf" class="pub-pdf" target="_blank">[PDF]</a></span>
   <br><span class="pub-press">Press: "[Cities' Infrastructure Grows More Slowly Than Their Populations Do](https://www.nyu.edu/about/news-publications/news/2026/october/cities--infrastructure-grows-more-slowly-than-their-populations-.html)" — NYU News</span>
   <br><span class="pub-press">Companion site: [city-mass.nested-complexity.net](https://city-mass.nested-complexity.net)</span>
+  <br><a href="https://www.nyu.edu/about/news-publications/news/2026/october/cities--infrastructure-grows-more-slowly-than-their-populations-.html" target="_blank"><img src="/images/press/huang2026_citymass.jpg" alt="Tokyo at dusk — denser neighborhoods carry less built mass per person" class="pub-press-img"></a>
+  <span class="pub-press-credit">Photo: David Kernan (CC BY 4.0)</span>
 
 - Thompson, L., Wang, C., **Lu, M.** (2026). "[Contrasting patterns in urban energy and emission scaling](https://doi.org/10.1088/1748-9326/ae71ed)." <u>*Environmental Research Letters*</u>.
   <br><span class="pub-links"><a href="javascript:void(0)" class="pub-toggle" data-key="thompson2026" data-type="bib">[BibTeX]</a> <a href="javascript:void(0)" class="pub-toggle" data-key="thompson2026" data-type="abs">[Abstract]</a> <a href="/papers/Thompson2026_UrbanEnergyEmission.pdf" class="pub-pdf" target="_blank">[PDF]</a></span>
